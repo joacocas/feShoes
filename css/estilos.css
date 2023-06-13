@@ -1,4 +1,4 @@
-*{         /* RESET */
+*{         
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -15,7 +15,7 @@ html{
     width: 130px;
     height: 130px;
     display: block;
-    margin-left: 40rem;
+    margin-left: 41rem;
     margin-top: 1rem;
 }
 
@@ -54,7 +54,6 @@ html{
 
 .contenedor{
     display: flex;
-  
 }
 
 h1{
@@ -65,6 +64,7 @@ h1{
     font-size: 50px;
     text-align: center;
     width: 700px;
+    font-weight: bold;
     
 }
 
@@ -76,6 +76,7 @@ h2{
     width: 700px;
     height: 700px;
     margin-top: -380px;
+    font-weight: bold;
     
 }
 
@@ -115,7 +116,7 @@ form{
 }
 
 .boton{
-    width: 55px;
+    width: 80px;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
     border-color: #ebebeb;
@@ -132,6 +133,14 @@ footer{
     color: white;
     font-family: 'Rubik', sans-serif;
     margin-top: 60px;
+    margin-bottom: -30px;
+}
+
+.posicionDeLogoFooter{
+    width: 130px;
+    height: 130px;
+    margin-left: 80rem;
+    margin-bottom: 2rem;
 }
 
 h5{
@@ -157,7 +166,7 @@ h5{
     color: white;
     font-family: 'Rubik', sans-serif;
     border-color: rgba(0, 0, 0, 0.925);
-    width: 70px;
+    width: 80px;
 }
 
 .linea3{
@@ -173,5 +182,316 @@ p{
     margin-left: 40px;
     margin-top: 40px;
     padding-bottom: 20px;
+}
+
+.h1Nosotros{
+    margin-left: 350px;
+    margin-bottom: 60px;
+    margin-top: 100px;
+    font-weight: bold;
+}
+
+.sectionNosotros{
+    margin: 7rem 4rem 4rem;
+    font-size: 2rem;
+    text-align: center;
+    text-decoration: solid;
+}
+
+.bodyNosotros{
+    background-image: url(../images/texanasNosotros.jpg);
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: 940px;
+    background-size: 70rem;   
+}
+
+
+.menuLateral{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 60px;
+    margin-top: 100px;
+    list-style: none;
+}
+
+.itemMenuLateral{
+    margin: 40px 70px 20px 20px;
+}
+
+.productos{
+    display: grid;
+    grid-template-columns: 70% 16%;
+    grid-template-rows: 500px 500px;
+    justify-items: center;
+    align-items: center;
+    margin-left: 280px;
+    margin-top: -150px;
+    width: 80%;
+    background-color: white;
+    font-weight: bold;
+}
+
+.producto{
+    margin: 20px;
+}
+
+.imagenProductos{
+    width: 450px;
+    height: 450px;
+}
+
+.epigrafe{
+    text-align: left;
+    font-size: larger;
+}
+
+.imagenZapatilla{
+    width: 400px;
+    height: 550px;
+}
+
+.mainContacto{
+    margin-left: 100px;
+}
+
+.div1Contacto{
+    display: flex;
+}
+
+.div2Contacto{
+    display: flex;
+    margin-top: -120px;
+}
+
+.div3Contacto{
+    display: flex;
+    margin-top: -520px;
+}
+
+.div4Contacto{
+    display: flex;
+    margin-top: -80px;
+}
+
+.logoContacto{
+    width: 50px;
+    height: 50px;
+    margin: 160px 40px 160px 160px;
+    
+}
+
+.parrafoDeLogo{
+    margin-top: 170px;
+    margin-left: 100px;
+    font-size: 30px;
+}
+
+.fotoContacto{
+    width: 500px;
+    height: 900px;
+    margin-left: 300px;
+    margin-top: -100px;
+}
+
+.logoContactoUbi{
+    width: 80px;
+    height: 80px;
+    margin: 140px 40px 160px 160px;
+}
+
+.bodyPF{
+    font-size: bold;
+}
+
+.sectionPreg{
+    text-align: center;
+    font-size: larger;
+}
+
+.tituloPregunta{
+    margin-top: 70px;
+    margin-left: 0px;
+}
+
+.respuestaPreg{
+    font-size: 1000rem;
+}
+
+/* tamaño escritorio*/
+@media screen and (min-width: 1000px) {
+    .navbar{
+        display: none;
+    }
+}
+
+
+/* tamaño tablet*/
+@media screen and (max-width: 768px){
+    .posicionDeLogo{
+        display: none;
+    }
+
+    .linea{
+        display: none;
+    }
+
+    .lista{
+        display: none;
+    }
+    
+    .posicionDeLogoResponsive{
+        width: 100px;
+        height: 100px;
+        margin-left: 320px;
+    }
+
+    .bienvenidoResponsive{
+        margin-left: 80px;
+        margin-top: 180px;
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    .posicionFoto{
+        width: 400px;
+        height: 400px;
+    }
+
+    .h2IndexResponsive{
+        font-size: 23px;
+        margin-top: 100px;
+        margin-left: 40px;
+        font-weight: bold;
+    }
+
+    .h3IndexResponsive{
+        margin-left: 150px;
+        margin-top: -300px;
+    }
+
+    .h4IndexResponsive{
+        margin-left: 150px;
+    }
+
+    form{
+        margin-left: 100px;
+    }
+
+    .posicionDeLogoFooter{
+        margin-left: 35rem;
+    }
+    
+    .linkContacto{
+        font-size: 20px;
+    }
+
+    .form2{
+        font-size: 20px;
+        width: 200px;
+        margin-left: 25rem;
+        margin-top: -50px;
+    }
+
+    .h1Nosotros{
+        font-size: 50px;
+        margin-left: 40px;
+    }
+
+    .sectionNosotros{
+        font-size: 30px;
+    }
+
+    .bodyNosotros{
+        background-position-y: 1767px;
+    }
+
+    
+}
+
+/*tamaño celular*/
+@media screen and (max-width: 500px){
+    .posicionDeLogoResponsive{
+        width: 70px;
+        height: 70px;
+        margin-left: 200px;
+    }
+
+    .bienvenidoResponsive{
+        margin-left: 100px;
+        margin-top: 160px;
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    .posicionFoto{
+        width: 400px;
+        height: 400px;
+        margin-left: -300px;
+        margin-top: 300px;
+    }
+
+    .h2IndexResponsive{
+        font-size: 20px;
+        margin-top: 100px;
+        padding-right: 280px;
+        padding-left: 30px;
+        margin-left: 60px;
+        font-weight: bold;
+    }
+
+    .h3IndexResponsive{
+        margin-left: 100px;
+        margin-top: -400px;
+        font-size: 25px;
+    }
+
+    .h4IndexResponsive{
+        margin-left: 85px;
+        font-size: 20px;
+    }
+
+    form{
+        margin-left: 80px;
+        font-size: 15px;
+    }
+
+    .posicionDeLogoFooter{
+        margin-left: 12rem;
+    }
+
+    .derechosDeAutor{
+        font-size: 12px;
+        margin-left: 100px;
+    }
+
+    .linkContacto{
+        font-size: 15px;
+        margin-left: -40px;
+    }
+
+    .form2{
+        font-size: 15px;
+        width: 50px;
+        margin-left: 18rem;
+        margin-top: -50px;
+    }
+
+    .h1Nosotros{
+        font-size: 35px;
+        margin-left: -100px;
+        
+    }
+
+    .sectionNosotros{
+        font-size: 23px;
+        margin-left: 20px;
+        margin-top: 0px;
+    }
+
+    .bodyNosotros{
+        background-position-y: 1507px;
+    }
 }
 

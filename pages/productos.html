@@ -5,8 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>F.E shoes</title>
-    <link rel="shortcut icon" href="./images/f.png" type="image/x-icon">
-    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="shortcut icon" href="../images/logo.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
@@ -16,10 +15,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/estilos.css">
 </head>
 <body>
     <header id="encabezado">
-        <img src="../images/f.png" alt="Logo" class="posicionDeLogo">
+        <img src="../images/logo.png" alt="Logo" class="posicionDeLogo">
         <hr class="linea"> 
         <nav>
             <ul class="lista">
@@ -36,10 +37,77 @@
             </ul>
         </nav>
         <hr class="linea">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img src="../images/logo.png" alt="F.E shoes" class="posicionDeLogoResponsive"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./preguntas-frecuentes.html">Preguntas frecuentes</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
+    <main>
+        <nav class="menuProductos">
+            <ul class="menuLateral">
+                <li class="itemMenuLateral">
+                    <a href="productos.html" class="itemLink">Todos los productos</a></li>
+                <li class="itemMenuLateral">
+                    <a href="" class="itemLink">Botas</a></li>
+                <li class="itemMenuLateral">
+                    <a href="" class="itemLink">Borcegos</a></li>
+                <li class="itemMenuLateral">
+                    <a href="" class="itemLink">Zapatillas</a></li>
+            </ul>
+        </nav>
+    </main>
+    <section class="productos">
+        <div class="producto">
+            <img class="imagenProductos" src="../images/borcegosNegros.jpeg" alt="Borcegos negros">
+        </div>
+        <p > 
+            Borcegos negros. 100% cuero. Punta redonda. Plataforma de 5cm. Caña de 17 cm.
+        </p>
+        <div class="producto">
+            <img class="imagenProductos" src="../images/texanasMarrones.jpeg" alt="Texanas marrones">
+        </div>
+        <p>
+            Botas texanas. 100% cuero. Punta cuadrada. Color marron. Tacon bajo de color negro.
+        </p>
+        <div class="producto">
+            <img class="imagenZapatilla" src="../images/zapatillasNegras.jpeg" alt="Zapatillas negras">
+        </div>
+        <p>
+            Zapatillas botita. 100% cuero. Base color suela o blanco. Plataforma de 6cm. Disponible en blanco  o negro.
+        </p>
+        <div class="producto">
+            <img class="imagenProductos" src="../images/texanasNegrasProductos.png" alt="Texanas negras">
+        </div>
+        <p>
+            Botas texanas. 100% cuero. Punta cuadrada. Tacón bajo. Disponibles en negro o, blanco, dorado y negro.
+        </p>
+    </section>
     <footer>
         <h5>
-            <a href="./pages/contacto.html" class="linkContacto">Contacto</a>
+            <a href="./contacto.html" class="linkContacto">Contacto</a>
         </h5>
         <form action="Newsletter" class="form2">
             <label for="email">Correo electronico</label>
@@ -47,11 +115,12 @@
             <input type="button" value="Unirse" class="boton2">
         </form>
         <hr class="linea3">
-        <p>
+        <p class="derechosDeAutor">
             Derechos de autor &#169; 2023 FE SHOES. joaquincastelanich.
         </p>
+        <img src="../images/logo.png" alt="Logo" class="posicionDeLogoFooter">
     </footer>
     
-    
+    <script src="../js/bootstrap.min.js"></script>
 </body>
 </html>

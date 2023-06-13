@@ -5,8 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>F.E shoes</title>
-    <link rel="shortcut icon" href="./images/f.png" type="image/x-icon">
-    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="shortcut icon" href="../images/logo.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
@@ -16,10 +15,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/estilos.css">
 </head>
 <body>
     <header id="encabezado">
-        <img src="../images/f.png" alt="Logo" class="posicionDeLogo">
+        <img src="../images/logo.png" alt="Logo" class="posicionDeLogo">
         <hr class="linea"> 
         <nav>
             <ul class="lista">
@@ -36,10 +37,56 @@
             </ul>
         </nav>
         <hr class="linea">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img src="../images/logo.png" alt="F.E shoes" class="posicionDeLogoResponsive"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./preguntas-frecuentes.html">Preguntas frecuentes</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
+    <main class="mainContacto">
+        <div class="div1Contacto">
+            <img class="logoContacto" src="../images/logoInstagram.png" alt="Logo de instagram">
+            <p class="parrafoDeLogo">@f_eshoes</p>
+        </div>
+        <div class="div2Contacto">
+            <img class="logoContacto" src="../images/logoTelefono.png" alt="Logo de telefono">
+            <p class="parrafoDeLogo">11-5709-0784</p>
+            <img class="fotoContacto" src="../images/botasLargasNegras.jpg" alt="Botas largas">
+        </div>
+        <div class="div3Contacto">
+            <img class="logoContacto" src="../images/logoMail.png" alt="Logo de instagram">
+            <p class="parrafoDeLogo">feshoes54@hotmail.com</p>
+        </div>
+        <div class="div4Contacto">
+            <img class="logoContactoUbi" src="../images/logoDireccion.jpg" alt="Logo de instagram">
+            <p class="parrafoDeLogo">Videla 282, Quilmes centro</p>
+        </div>
+    </main>
     <footer>
         <h5>
-            <a href="./pages/contacto.html" class="linkContacto">Contacto</a>
+            <a href="./contacto.html" class="linkContacto">Contacto</a>
         </h5>
         <form action="Newsletter" class="form2">
             <label for="email">Correo electronico</label>
@@ -47,10 +94,11 @@
             <input type="button" value="Unirse" class="boton2">
         </form>
         <hr class="linea3">
-        <p>
+        <p class="derechosDeAutor">
             Derechos de autor &#169; 2023 FE SHOES. joaquincastelanich.
         </p>
+        <img src="../images/logo.png" alt="Logo" class="posicionDeLogoFooter">
     </footer>
-
+    <script src="../js/bootstrap.min.js"></script>
 </body>
 </html>
