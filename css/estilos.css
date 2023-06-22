@@ -308,6 +308,7 @@ p{
 .sectionPreg{
     text-align: center;
     font-size: larger;
+    align-content: space-around;
 }
 
 .tituloPregunta{
@@ -324,7 +325,22 @@ p{
     .navbar{
         display: none;
     }
+
+    .h1Prod{
+        display: none;
+    }
+
+    .linea4{
+        display: none;
+    }
+
+    .imagenTexanaMarron{
+        width: 450px;
+        height: 450px;
+        margin-left: -80px;
+    }
 }
+
 
 
 /* tamaño tablet*/
@@ -344,7 +360,7 @@ p{
     .posicionDeLogoResponsive{
         width: 100px;
         height: 100px;
-        margin-left: 320px;
+        margin-left: 330px;
     }
 
     .bienvenidoResponsive{
@@ -406,20 +422,119 @@ p{
     .bodyNosotros{
         background-position-y: 1767px;
     }
-
     
+    .sectionPreg{
+        margin-right: 30px;
+        margin-left: 30px;
+        font-size: 25px;
+    }
+
+    .tituloPregunta{
+        font-weight: 400px;
+    }
+    
+    .fotoContacto{
+        display: none;
+    }
+
+    .mainContacto{
+        margin-left: -30px;
+        padding-bottom: 31rem;
+        background-image: url(../images/botasLargasNegras.jpg);
+        background-repeat: no-repeat;
+        background-size: 500px;
+        background-position-y: 48rem;
+        background-position-x: 10rem;
+    }
+
+    .div1Contacto{
+        margin-top: 0px;
+    }
+
+    .div2Contacto{
+        margin-top: -160px;
+    }
+
+    .div3Contacto{
+        margin-top: -160px;
+    }
+
+    .div4Contacto{
+        margin-top: -160px;
+        margin-left: -18px;
+    }
+
+    .parrafoDeLogo{
+        margin-left: 70px;
+    }
+
+    .menuProductos{
+        display: none;
+    }
+
+    .productos{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 500px 500px;
+        justify-items: center;
+        align-items: center;
+        margin-left: 70px;
+        margin-top: 10rem;
+        width: 80%;
+        background-color: white;
+        font-weight: bold;
+    }
+
+    .producto{
+        margin: 100px;
+    }
+    
+    .imagenProductos{
+        width: 400px;
+        height: 400px;
+    }
+    
+    .epigrafe{
+        text-align: center;
+        font-size: larger;
+        margin-top: 100px;
+    }
+    
+    .imagenZapatilla{
+        width: 350px;
+        height: 550px;
+        margin-top: -70px;
+    }
+
+    .imagenTexanaMarron{
+        width: 400px;
+        height: 400px;
+        margin-left: -70px;
+        margin-top: 80px;
+    }
+
+    .h1Prod{
+        font-size: 50px;
+        margin-left: 40px;
+        margin-bottom: 100px;
+    }
+
+    .linea4{
+        margin-left: 150px;
+        margin-right: 150px;
+    }
 }
 
-/*tamaño celular*/
-@media screen and (max-width: 500px){
+/*tamaño celular (Mobile L)*/
+@media screen and (max-width: 425px){
     .posicionDeLogoResponsive{
         width: 70px;
         height: 70px;
-        margin-left: 200px;
+        margin-left: 165px;
     }
 
     .bienvenidoResponsive{
-        margin-left: 100px;
+        margin-left: 90px;
         margin-top: 160px;
         font-size: 40px;
         font-weight: bold;
@@ -428,7 +543,7 @@ p{
     .posicionFoto{
         width: 400px;
         height: 400px;
-        margin-left: -300px;
+        margin-left: -325px;
         margin-top: 300px;
     }
 
@@ -437,50 +552,60 @@ p{
         margin-top: 100px;
         padding-right: 280px;
         padding-left: 30px;
-        margin-left: 60px;
+        margin-left: 20px;
         font-weight: bold;
     }
 
+    .linea2{
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+
+    .linea3{
+        margin-right: 80px;
+        margin-left: 80px;
+    }
+
     .h3IndexResponsive{
-        margin-left: 100px;
+        margin-left: 60px;
         margin-top: -400px;
         font-size: 25px;
     }
 
     .h4IndexResponsive{
-        margin-left: 85px;
-        font-size: 20px;
+        margin-left: 65px;
+        font-size: 18px;
     }
 
     form{
-        margin-left: 80px;
-        font-size: 15px;
+        margin-left: 60px;
+        font-size: 13px;
     }
 
     .posicionDeLogoFooter{
-        margin-left: 12rem;
+        margin-left: 10rem;
     }
 
     .derechosDeAutor{
         font-size: 12px;
-        margin-left: 100px;
+        margin-left: 65px;
     }
 
     .linkContacto{
         font-size: 15px;
-        margin-left: -40px;
+        margin-left: -80px;
     }
 
     .form2{
         font-size: 15px;
         width: 50px;
-        margin-left: 18rem;
+        margin-left: 13rem;
         margin-top: -50px;
     }
 
     .h1Nosotros{
         font-size: 35px;
-        margin-left: -100px;
+        margin-left: -135px;
         
     }
 
@@ -491,7 +616,446 @@ p{
     }
 
     .bodyNosotros{
-        background-position-y: 1507px;
+        background-position-y: 1990px;
     }
+
+    .sectionPreg{
+        margin-right: 20px;
+        margin-left: 15px;
+        font-size: 20px;
+    }
+
+    .mainContacto{
+        margin-left: -90px;
+        padding-bottom: 31rem;
+        background-image: url(../images/botasLargasNegras.jpg);
+        background-repeat: no-repeat;
+        background-size: 400px;
+        background-position-y: 51rem;
+        background-position-x: 7rem;
+    }
+
+    .logoContacto{
+        width: 30px;
+        height: 30px;
+        margin: 160px 40px 160px 160px;
+    }
+
+    .logoContactoUbi{
+        width: 60px;
+        height: 60px;
+        margin-top: 155px;
+    }
+
+    .parrafoDeLogo{
+        margin-left: 0px;
+        font-size: 20px;
+    }
+
+    .h1Prod{
+        font-size: 35px;
+        margin-left: -130px;
+        margin-top: 150px;
+        margin-bottom: 50px;
+    }
+
+    .linea4{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    .productos{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 500px 500px;
+        justify-items: center;
+        align-items: center;
+        margin-left: 70px;
+        margin-top: 5rem;
+        width: 80%;
+        background-color: white;
+        font-weight: bold;
+    }
+
+    .imagenProductos{
+        width: 250px;
+        height: 250px;
+    }
+    
+    .epigrafe{
+        text-align: center;
+        margin-top: 100px;
+    }
+    
+    .imagenZapatilla{
+        width: 230px;
+        height: 360px;
+        margin-top: -70px;
+    }
+
+    .imagenTexanaMarron{
+        width: 250px;
+        height: 250px;
+        margin-left: -70px;
+        margin-top: 0px;
+    }
+
 }
 
+/*tamaño celular (Mobile M)*/
+@media screen and (max-width: 375px){
+    .posicionDeLogoResponsive{
+        width: 70px;
+        height: 70px;
+        margin-left: 140px;
+    }
+
+    .bienvenidoResponsive{
+        margin-left: 65px;
+        margin-top: 160px;
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    .posicionFoto{
+        width: 400px;
+        height: 400px;
+        margin-left: -350px;
+        margin-top: 300px;
+    }
+
+    .h2IndexResponsive{
+        font-size: 18px;
+        margin-top: 100px;
+        padding-right: 330px;
+        padding-left: 30px;
+        margin-left: 20px;
+        font-weight: bold;
+    }
+
+    .linea2{
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+
+    .linea3{
+        margin-right: 60px;
+        margin-left: 60px;
+    }
+
+    .h3IndexResponsive{
+        margin-left: 50px;
+        margin-top: -400px;
+        font-size: 23px;
+    }
+
+    .h4IndexResponsive{
+        margin-left: 50px;
+        font-size: 17px;
+    }
+
+    form{
+        margin-left: 50px;
+        font-size: 12px;
+    }
+
+    .posicionDeLogoFooter{
+        margin-left: 8rem;
+    }
+
+    .derechosDeAutor{
+        font-size: 11px;
+        margin-left: 50px;
+    }
+
+    .linkContacto{
+        font-size: 13px;
+        margin-left: -90px;
+    }
+
+    .form2{
+        font-size: 13px;
+        width: 50px;
+        margin-left: 12rem;
+        margin-top: -50px;
+    }
+
+    .h1Nosotros{
+        font-size: 35px;
+        margin-left: -155px;
+        
+    }
+
+    .sectionNosotros{
+        font-size: 23px;
+        margin-left: 20px;
+        margin-top: 0px;
+    }
+
+    .bodyNosotros{
+        background-position-y: 2744px;
+        background-size: 50rem;
+    }
+
+    .sectionPreg{
+        margin-right: 20px;
+        margin-left: 15px;
+        font-size: 20px;
+    }
+
+
+    .mainContacto{
+        margin-left: -100px;
+        padding-bottom: 31rem;
+        background-image: url(../images/botasLargasNegras.jpg);
+        background-repeat: no-repeat;
+        background-size: 400px;
+        background-position-y: 51rem;
+        background-position-x: 6rem;
+    }
+
+    .logoContacto{
+        width: 30px;
+        height: 30px;
+        margin: 160px 40px 160px 160px;
+    }
+
+    .logoContactoUbi{
+        width: 60px;
+        height: 60px;
+        margin-top: 155px;
+    }
+
+    .parrafoDeLogo{
+        margin-left: -20px;
+        font-size: 20px;
+    }
+
+    .h1Prod{
+        font-size: 30px;
+        margin-left: -160px;
+        margin-top: 150px;
+        margin-bottom: 50px;
+    }
+
+    .linea4{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    .productos{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 500px 500px;
+        justify-items: center;
+        align-items: center;
+        margin-left: 50px;
+        margin-top: 5rem;
+        width: 80%;
+        background-color: white;
+        font-weight: bold;
+    }
+
+    .imagenProductos{
+        width: 250px;
+        height: 250px;
+    }
+    
+    .epigrafe{
+        text-align: center;
+        margin-top: 100px;
+    }
+    
+    .imagenZapatilla{
+        width: 230px;
+        height: 360px;
+        margin-top: -70px;
+    }
+
+    .imagenTexanaMarron{
+        width: 250px;
+        height: 250px;
+        margin-left: -70px;
+        margin-top: 0px;
+    }
+
+}
+
+/*tamaño celular (Mobile S)*/
+@media screen and (max-width: 320px){
+    .posicionDeLogoResponsive{
+        width: 70px;
+        height: 70px;
+        margin-left: 115px;
+    }
+
+    .bienvenidoResponsive{
+        margin-left: 65px;
+        margin-top: 130px;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .posicionFoto{
+        width: 400px;
+        height: 400px;
+        margin-left: -350px;
+        margin-top: 280px;
+    }
+
+    .h2IndexResponsive{
+        font-size: 16px;
+        margin-top: 100px;
+        padding-right: 370px;
+        padding-left: 30px;
+        margin-left: 10px;
+        font-weight: bold;
+    }
+
+    .linea2{
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+
+    .linea3{
+        margin-right: 60px;
+        margin-left: 60px;
+    }
+
+    .h3IndexResponsive{
+        margin-left: 45px;
+        margin-top: -450px;
+        font-size: 20px;
+    }
+
+    .h4IndexResponsive{
+        margin-left: 45px;
+        font-size: 15px;
+    }
+
+    form{
+        margin-left: 40px;
+        font-size: 10px;
+    }
+
+    .posicionDeLogoFooter{
+        margin-left: 6rem;
+    }
+
+    .derechosDeAutor{
+        font-size: 10px;
+        margin-left: 30px;
+    }
+
+    .linkContacto{
+        font-size: 12px;
+        margin-left: -90px;
+    }
+
+    .form2{
+        font-size: 11px;
+        width: 50px;
+        margin-left: 10rem;
+        margin-top: -50px;
+    }
+
+    .h1Nosotros{
+        font-size: 30px;
+        margin-left: -185px;
+        
+    }
+
+    .sectionNosotros{
+        font-size: 20px;
+        margin-left: 20px;
+        margin-top: 0px;
+    }
+
+    .bodyNosotros{
+        background-position-y: 2980px;
+        background-size: 30rem;
+    }
+
+    .sectionPreg{
+        margin-right: 20px;
+        margin-left: 15px;
+        font-size: 18px;
+    }
+
+
+    .mainContacto{
+        margin-left: -120px;
+        padding-bottom: 31rem;
+        background-image: url(../images/botasLargasNegras.jpg);
+        background-repeat: no-repeat;
+        background-size: 400px;
+        background-position-y: 51rem;
+        background-position-x: 5rem;
+    }
+
+    .logoContacto{
+        width: 30px;
+        height: 30px;
+        margin: 160px 40px 160px 160px;
+    }
+
+    .logoContactoUbi{
+        width: 60px;
+        height: 60px;
+        margin-top: 155px;
+    }
+
+    .parrafoDeLogo{
+        margin-left: -20px;
+        font-size: 20px;
+    }
+
+    .h1Prod{
+        font-size: 28px;
+        margin-left: -185px;
+        margin-top: 150px;
+        margin-bottom: 50px;
+    }
+
+    .linea4{
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+
+    .productos{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 500px 500px;
+        justify-items: center;
+        align-items: center;
+        margin-left: 50px;
+        margin-top: 5rem;
+        width: 80%;
+        background-color: white;
+        font-weight: bold;
+    }
+
+    .imagenProductos{
+        width: 250px;
+        height: 250px;
+    }
+    
+    .epigrafe{
+        text-align: center;
+        margin-top: 100px;
+    }
+    
+    .imagenZapatilla{
+        width: 230px;
+        height: 360px;
+        margin-top: -70px;
+    }
+
+    .imagenTexanaMarron{
+        width: 250px;
+        height: 250px;
+        margin-left: -70px;
+        margin-top: 0px;
+    }
+
+}
