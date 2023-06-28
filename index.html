@@ -17,13 +17,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./css/estilos.css">
+    <meta name="description" content="bienvenido a la zapateria de mayor calidad">
+    <meta name="keywords" content="zapateria, venta mayorista de zapatos, diseños de cuero, zapatos, zapatillas, texanas, botas">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <header id="encabezado">
-        <img src="./images/logo.png" alt="Logo" class="posicionDeLogo">
-        <hr class="linea"> 
-        <nav>
+    <header>
+        <img src="./images/logo.png" alt="Logo" class="posicionDeLogo"> 
+        <nav class="navIndex">
             <ul class="lista">
                 <li class="itemLista">
                     <a href="index.html" class="itemLink">Inicio</a></li>
@@ -36,7 +37,7 @@
                 <li class="itemLista">
                     <a href="./pages/preguntas-frecuentes.html" class="itemLink">Preguntas Frecuentes</a></li>
             </ul>
-        <hr class="linea">
+        </nav>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.html"><img src="./images/logo.png" alt="F.E shoes" class="posicionDeLogoResponsive"></a>
@@ -69,7 +70,6 @@
         <h1 class="bienvenidoResponsive">BIENVENIDO/A A FE SHOES!</h1>
         <img src="./images/botasIndex.jpeg" alt="Borcegos negros" class="posicionFoto">
     </main>
-    <hr class="linea2">
     <section>
         <h2 class="h2IndexResponsive">Aquí vas a poder encontrar los diseños perfectos para comercializar en tu tienda!</h2>
         <h3 class="h3IndexResponsive">Sumate a nuestro newsletter !</h3>
@@ -81,19 +81,22 @@
         </form>
     </section>
     <footer>
-        <h5>
-            <a href="./pages/contacto.html" class="linkContacto">Contacto</a>
-        </h5>
-        <form action="Newsletter" class="form2">
-            <label for="email">Correo electronico</label>
-            <input type="email" name="email" id="email">
-            <input type="button" value="Unirse" class="boton2">
-        </form>
-        <hr class="linea3">
-        <p class="derechosDeAutor">
-            Derechos de autor &#169; 2023 FE SHOES. joaquincastelanich.
-        </p>
-        <img src="./images/logo.png" alt="Logo" class="posicionDeLogoFooter">
+        <div class="contenedorFooter">
+            <h5>
+                <a href="./pages/contacto.html" class="linkContacto">Contacto</a>
+            </h5>
+            <form action="Newsletter" class="form2">
+                <label for="email">Correo electronico</label>
+                <input type="email" name="email" id="email">
+                <input type="button" value="Unirse" class="boton2">
+            </form>
+        </div>
+        <div class="contenedorImagenFooter">
+            <p class="derechosDeAutor">
+                Derechos de autor &#169; 2023 FE SHOES. joaquincastelanich.
+            </p>
+            <img src="./images/logo.png" alt="Logo" class="posicionDeLogoFooter">
+        </div>
     </footer>
 </body>
 </html>

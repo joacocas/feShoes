@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>F.E shoes</title>
-    <link rel="shortcut icon" href="./images/f.png" type="image/x-icon">
+    <title>¿Que es F.E shoes?</title>
+    <link rel="shortcut icon" href="../images/logo.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
@@ -17,13 +17,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../css/estilos.css">
+    <meta name="description" content="somos una empresa mayorista de calzado femenino">
+    <meta name="keywords" content="zapateria, venta mayorista de zapatos, diseños de cuero, zapatos, zapatillas, texanas, botas, calidad de productos, enfoque de la empresa">
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
-<body class="bodyNosotros">
-    <header id="encabezado">
-        <img src="../images/logo.png" alt="Logo" class="posicionDeLogo">
-        <hr class="linea"> 
-        <nav>
+<body>
+    <header>
+        <img src="../images/logo.png" alt="Logo" class="posicionDeLogo"> 
+        <nav class="navIndex">
             <ul class="lista">
                 <li class="itemLista">
                     <a href="../index.html" class="itemLink">Inicio</a></li>
@@ -37,7 +38,6 @@
                     <a href="./preguntas-frecuentes.html" class="itemLink">Preguntas Frecuentes</a></li>
             </ul>
         </nav>
-        <hr class="linea">
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.html"><img src="../images/logo.png" alt="F.E shoes" class="posicionDeLogoResponsive"></a>
@@ -64,14 +64,13 @@
                     </ul>
                 </div>
             </div>
-        </nav>
+        </nav>    
     </header>
     <main>
-        <h1 class="h1Nosotros">¿Quiénes Somos?</h1>
-        <hr class="linea2">
+        <h1 class="h1Nosotros">¿Quiénes somos?</h1>
     </main>
     <section class="sectionNosotros">
-        <p>
+        <p class="pNosotros">
             F.E Shoes es una empresa mayorista de calzado que se ha insertado  en el mercado en el año 2016. 
             Como empresa queremos brindarles la mejor calidad en nuestros productos, y es por eso que nos dedicamos a 
             la fabricación de zapatos 100% de cuero. El enfoque principal de nuestra empresa es la distribución de 
@@ -80,40 +79,43 @@
             durabilidad de nuestros zapatos son dos características distintivas de la empresa, y es por eso que hemos 
             logrado mantener su presencia en el mercado a lo largo de los años.
         </p>
-        <p>
+        <p class="pNosotros">
             En F.E shoes creemos que los zapatos no son solo accesorios, son una forma de expresión personal. Nuestro 
             equipo de expertos se dedica a buscar las últimas tendencias y los diseños más innovadores para brindarte 
             una experiencia de compra excepcional.
         </p>
-        <p>
+        <p class="pNosotros">
             Nos comprometemos a ofrecerte productos de la más alta calidad. Cada par de zapatos que encuentres en 
             nuestra página ha sido cuidadosamente seleccionado para asegurarnos de que cumpla con nuestros estándares
             de comodidad, durabilidad y estilo.            
         </p>
-        <p>
+        <p class="pNosotros">
             Además de nuestra pasión por el calzado, nos apasiona brindarte un servicio excepcional. 
             Nuestro equipo de atención al cliente está siempre dispuesto a ayudarte en cada paso del camino. 
         </p>
-        <p>
+        <p class="pNosotros">
             Así que adelante, explora nuestros productos y encuentra ese diseño que elevará el estilo de tu negocio y te
             hará sentir confiado en cada paso que des. Nosotros estamos aquí para ayudarte a caminar con estilo. 
             ¡Bienvenido a la familia de F.E shoes!
         </p>
     </section>
     <footer>
-        <h5>
-            <a href="./contacto.html" class="linkContacto">Contacto</a>
-        </h5>
-        <form action="Newsletter" class="form2">
-            <label for="email">Correo electronico</label>
-            <input type="email" name="email" id="email">
-            <input type="button" value="Unirse" class="boton2">
-        </form>
-        <hr class="linea3">
-        <p class="derechosDeAutor">
-            Derechos de autor &#169; 2023 FE SHOES. joaquincastelanich.
-        </p>
-        <img src="../images/logo.png" alt="Logo" class="posicionDeLogoFooter">
+        <div class="contenedorFooter">
+            <h5>
+                <a href="./pages/contacto.html" class="linkContacto">Contacto</a>
+            </h5>
+            <form action="Newsletter" class="form2">
+                <label for="email">Correo electronico</label>
+                <input type="email" name="email" id="email">
+                <input type="button" value="Unirse" class="boton2">
+            </form>
+        </div>
+        <div class="contenedorImagenFooter">
+            <p class="derechosDeAutor">
+                Derechos de autor &#169; 2023 FE SHOES. joaquincastelanich.
+            </p>
+            <img src="../images/logo.png" alt="Logo" class="posicionDeLogoFooter">
+        </div>
     </footer>
 </body>
 </html>

@@ -1,0 +1,34 @@
+.mainContacto {
+	background-image: url(../images/botasLargasNegras.jpg);
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: 40%;
+}
+.divContacto {
+	display: flex;
+	width: 60%;
+	justify-content: space-evenly;
+	padding-top: 15%;
+}
+.div4Contacto {
+	display: flex;
+	width: 60%;
+	justify-content: space-evenly;
+	padding-top: 10%;
+	padding-bottom: 15%;
+}
+.logoContacto {
+	width: 50px;
+	height: 50px;
+}
+.parrafoDeLogo {
+	font-size: 30px;
+}
+.parrafoDeLogoUbi {
+	padding-top: 3%;
+	font-size: 30px;
+}
+.logoContactoUbi {
+	width: 90px;
+	height: 90px;
+}

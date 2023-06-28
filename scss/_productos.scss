@@ -1,0 +1,57 @@
+.menuLateral {
+	font-family: $fontFamily1;
+	font-weight: bold;
+	font-size: 20px;
+	list-style: none;
+	margin: 0 auto;
+	width: 90%;
+	padding-left: 1%;
+	padding-top: 7%;
+}
+.itemMenuLateral {
+	padding-bottom: 3%;
+}
+.productos {
+	display: grid;
+	grid-template-columns: 60% 15%;
+	grid-template-rows: 30% 30%;
+	justify-items: center;
+	align-items: center;
+	width: 100%;
+	background-color: $backgroundColor1;
+	padding-left: 30%;
+	padding-bottom: 30%;
+}
+.imagenProductos {
+	width: 450px;
+	height: 450px;
+	transition: all 1s;
+	&:hover{
+		width: 500px;
+		height: 500px;
+	}
+}
+.imagenProductos--imagenZapatilla{
+	@extend .imagenProductos;
+	width: 400px;
+	height: 550px;
+	padding-bottom: 5%;
+	&:hover{
+		width: 450px;
+		height: 600px;
+	}
+}
+.imagenProductos--texanaMarron{
+	@extend .imagenProductos;
+	width: 600px;
+	padding-right: 20%;
+	&:hover{
+		width: 650px;
+		height: 500px;
+	}
+}
+.epigrafeFotoProd {
+	text-align: right;
+	font-size: 15px;
+	padding-top: 80%;
+}

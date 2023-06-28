@@ -1,0 +1,125 @@
+@media screen and (max-width: 768px) {
+	.posicionDeLogo {
+		display: none;
+	}
+	.navIndex {
+		display: none;
+	}
+	.posicionDeLogoResponsive {
+		width: 85%;
+		padding-left: 64%;
+		padding-right: 0%;
+		margin: 0 auto;
+	}
+	.bienvenidoResponsive {
+		font-size: 40px;
+		font-weight: bold;
+		width: 70%;
+	}
+	.posicionFoto {
+		width: 400px;
+		height: 400px;
+	}
+	.h2IndexResponsive {
+		font-size: 23px;
+		font-weight: bold;
+	}
+	.h3IndexResponsive {
+		font-size: 22px;
+		padding-left: 5%;
+	}
+	.h4IndexResponsive {
+		font-size: 22px;
+		width: 70%;
+		padding-left: 10%;
+	}
+	.form {
+		font-size: 20px;
+		padding-left: 10%;
+		padding-bottom: 20%;
+	}
+	.linkContacto {
+		font-size: 15px;
+	}
+	.form2 {
+		font-size: 15px;
+		width: 50%;
+	}
+	.h1Nosotros {
+		font-size: 40px;
+	}
+	.sectionNosotros {
+		font-size: 22px;
+	}
+	.menuProductos {
+		display: none;
+	}
+	.h1Prod {
+		font-size: 35px;
+		width: 50%;
+		margin: 0 auto;
+		padding: 0%;
+		padding-top: 20%;
+		padding-bottom: 5%;
+		@include bottom-top-border-thin;
+		border-top: none;
+	}
+	.productos {
+		display: grid;
+		grid-template-columns: 50% 30%;
+		grid-template-rows: 500px 500px;
+		justify-content: space-around;
+		width: 100%;
+		padding-left: 0%;
+	}
+	.epigrafeFotoProd {
+		padding-top: 80%;
+	}
+	.imagenProductos {
+		width: 450px;
+		height: 450px;
+	}
+	.imagenProductos--imagenZapatilla{
+		width: 400px;
+		height: 500px;
+		padding-bottom: 5%;
+		padding-left: 5%;
+		&:hover{
+			width: 450px;
+			height: 550px;
+		}
+	}
+	.imagenProductos--texanaMarron{
+		width: 500px;
+		padding-right: 20%;
+		&:hover{
+			width: 600px;
+		}
+	}
+	.fotoContacto {
+		display: none;
+	}
+	.mainContacto {
+		background-position: bottom;
+		background-size: 400px;
+	}
+	.divContacto {
+		width: 100%;
+	}
+	.div4Contacto {
+		width: 100%;
+		padding-bottom: 80%;
+	}
+	.parrafoDeLogo {
+		padding-right: 5%;
+	}
+	.parrafoDeLogoUbi {
+		padding-right: 5%;
+	}
+	.tituloPregunta {
+		font-size: 25px;
+	}
+	.sectionPreg {
+		font-size: 20px;
+	}
+}
