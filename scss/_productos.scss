@@ -1,15 +1,12 @@
-.menuLateral {
-	font-family: $fontFamily1;
-	font-weight: bold;
-	font-size: 20px;
-	list-style: none;
+.h1Prod{
+	font-size: 55px;
+	width: 50%;
 	margin: 0 auto;
-	width: 90%;
-	padding-left: 1%;
-	padding-top: 7%;
-}
-.itemMenuLateral {
-	padding-bottom: 3%;
+	padding: 0%;
+	padding-top: 20%;
+	padding-bottom: 5%;
+	@include bottom-top-border-thin;
+	border-top: none;
 }
 .productos {
 	display: grid;
@@ -19,35 +16,34 @@
 	align-items: center;
 	width: 100%;
 	background-color: $backgroundColor1;
-	padding-left: 30%;
 	padding-bottom: 30%;
 }
 .imagenProductos {
-	width: 450px;
-	height: 450px;
+	width: 550px;
+	height: 550px;
 	transition: all 1s;
 	&:hover{
-		width: 500px;
-		height: 500px;
+		width: 600px;
+		height: 600px;
 	}
 }
 .imagenProductos--imagenZapatilla{
 	@extend .imagenProductos;
-	width: 400px;
-	height: 550px;
+	width: 500px;
+	height: 650px;
 	padding-bottom: 5%;
 	&:hover{
-		width: 450px;
-		height: 600px;
+		width: 550px;
+		height: 700px;
 	}
 }
 .imagenProductos--texanaMarron{
 	@extend .imagenProductos;
-	width: 600px;
+	width: 700px;
 	padding-right: 20%;
 	&:hover{
-		width: 650px;
-		height: 500px;
+		width: 750px;
+		height: 600px;
 	}
 }
 .epigrafeFotoProd {

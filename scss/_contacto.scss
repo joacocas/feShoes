@@ -1,4 +1,14 @@
-.mainContacto {
+.h1Contacto{
+	font-size: 55px;
+	width: 50%;
+	margin: 0 auto;
+	padding: 0%;
+	padding-top: 20%;
+	padding-bottom: 5%;
+	@include bottom-top-border-thin;
+	border-top: none;
+}
+.sectionContacto {
 	background-image: url(../images/botasLargasNegras.jpg);
 	background-repeat: no-repeat;
 	background-position: right;

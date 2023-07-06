@@ -1,3 +1,13 @@
+.h1Preg{
+	font-size: 55px;
+	width: 70%;
+	margin: 0 auto;
+	padding: 0%;
+	padding-top: 20%;
+	padding-bottom: 5%;
+	@include bottom-top-border-thin;
+	border-top: none;
+}
 .sectionPreg {
 	margin: 0 auto;
 	width: 90%;
@@ -14,6 +24,7 @@
 	width: 100%;
 	margin: 0 auto;
 	font-size: 37px;
+	font-style: italic;
 	font-weight: bold;
 	padding-left: 0%;
 	padding-bottom: 5%;

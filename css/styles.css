@@ -11,7 +11,7 @@
 
 h1 {
   font-family: "Poppins", sans-serif;
-  font-size: 50px;
+  font-size: 55px;
   text-align: center;
   font-weight: bold;
   justify-self: right;
@@ -111,19 +111,18 @@ h4 {
   padding-bottom: 5%;
 }
 
-.menuLateral {
-  font-family: "Poppins", sans-serif;
-  font-weight: bold;
-  font-size: 20px;
-  list-style: none;
+.h1Prod {
+  font-size: 55px;
+  width: 50%;
   margin: 0 auto;
-  width: 90%;
-  padding-left: 1%;
-  padding-top: 7%;
-}
-
-.itemMenuLateral {
-  padding-bottom: 3%;
+  padding: 0%;
+  padding-top: 20%;
+  padding-bottom: 5%;
+  border-style: solid;
+  border-width: thin;
+  border-left: none;
+  border-right: none;
+  border-top: none;
 }
 
 .productos {
@@ -134,37 +133,36 @@ h4 {
   align-items: center;
   width: 100%;
   background-color: white;
-  padding-left: 30%;
   padding-bottom: 30%;
 }
 
 .imagenProductos, .imagenProductos--texanaMarron, .imagenProductos--imagenZapatilla {
-  width: 450px;
-  height: 450px;
+  width: 550px;
+  height: 550px;
   transition: all 1s;
 }
 .imagenProductos:hover, .imagenProductos--texanaMarron:hover, .imagenProductos--imagenZapatilla:hover {
-  width: 500px;
-  height: 500px;
-}
-
-.imagenProductos--imagenZapatilla {
-  width: 400px;
-  height: 550px;
-  padding-bottom: 5%;
-}
-.imagenProductos--imagenZapatilla:hover {
-  width: 450px;
+  width: 600px;
   height: 600px;
 }
 
+.imagenProductos--imagenZapatilla {
+  width: 500px;
+  height: 650px;
+  padding-bottom: 5%;
+}
+.imagenProductos--imagenZapatilla:hover {
+  width: 550px;
+  height: 700px;
+}
+
 .imagenProductos--texanaMarron {
-  width: 600px;
+  width: 700px;
   padding-right: 20%;
 }
 .imagenProductos--texanaMarron:hover {
-  width: 650px;
-  height: 500px;
+  width: 750px;
+  height: 600px;
 }
 
 .epigrafeFotoProd {
@@ -173,7 +171,21 @@ h4 {
   padding-top: 80%;
 }
 
-.mainContacto {
+.h1Contacto {
+  font-size: 55px;
+  width: 50%;
+  margin: 0 auto;
+  padding: 0%;
+  padding-top: 20%;
+  padding-bottom: 5%;
+  border-style: solid;
+  border-width: thin;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+}
+
+.sectionContacto {
   background-image: url(../images/botasLargasNegras.jpg);
   background-repeat: no-repeat;
   background-position: right;
@@ -214,6 +226,20 @@ h4 {
   height: 90px;
 }
 
+.h1Preg {
+  font-size: 55px;
+  width: 70%;
+  margin: 0 auto;
+  padding: 0%;
+  padding-top: 20%;
+  padding-bottom: 5%;
+  border-style: solid;
+  border-width: thin;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+}
+
 .sectionPreg {
   margin: 0 auto;
   width: 90%;
@@ -231,6 +257,7 @@ h4 {
   width: 100%;
   margin: 0 auto;
   font-size: 37px;
+  font-style: italic;
   font-weight: bold;
   padding-left: 0%;
   padding-bottom: 5%;
@@ -356,9 +383,6 @@ footer {
   .navbar {
     display: none;
   }
-  .h1Prod {
-    display: none;
-  }
 }
 @media screen and (max-width: 768px) {
   .posicionDeLogo {
@@ -413,9 +437,6 @@ footer {
   .sectionNosotros {
     font-size: 22px;
   }
-  .menuProductos {
-    display: none;
-  }
   .h1Prod {
     font-size: 35px;
     width: 50%;
@@ -464,7 +485,11 @@ footer {
   .fotoContacto {
     display: none;
   }
-  .mainContacto {
+  .h1Contacto {
+    font-size: 35px;
+  }
+  .sectionContacto {
+    padding-top: 10%;
     background-position: bottom;
     background-size: 400px;
   }
@@ -483,6 +508,9 @@ footer {
   }
   .tituloPregunta {
     font-size: 25px;
+  }
+  .h1Preg {
+    font-size: 40px;
   }
   .sectionPreg {
     font-size: 20px;
@@ -621,7 +649,10 @@ footer {
     text-align: right;
     font-size: 13px;
   }
-  .mainContacto {
+  .h1Contacto {
+    font-size: 25px;
+  }
+  .sectionContacto {
     background-image: url(../images/botasLargasNegras.jpg);
     background-repeat: no-repeat;
     background-size: 300px;
@@ -641,6 +672,9 @@ footer {
   }
   .parrafoDeLogoUbi {
     font-size: 20px;
+  }
+  .h1Preg {
+    font-size: 30px;
   }
   .sectionPreg {
     font-size: 18px;

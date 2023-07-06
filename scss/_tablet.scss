@@ -51,9 +51,6 @@
 	.sectionNosotros {
 		font-size: 22px;
 	}
-	.menuProductos {
-		display: none;
-	}
 	.h1Prod {
 		font-size: 35px;
 		width: 50%;
@@ -99,7 +96,11 @@
 	.fotoContacto {
 		display: none;
 	}
-	.mainContacto {
+	.h1Contacto{
+		font-size: 35px;
+	}
+	.sectionContacto {
+		padding-top: 10%;
 		background-position: bottom;
 		background-size: 400px;
 	}
@@ -118,6 +119,9 @@
 	}
 	.tituloPregunta {
 		font-size: 25px;
+	}
+	.h1Preg{
+		font-size: 40px;
 	}
 	.sectionPreg {
 		font-size: 20px;
